@@ -22,9 +22,12 @@ defmodule Mix.Tasks.Aoc.New do
     """
     \nDone! Start coding.
 
-    mix test                   -- run tests.
+    Get your puzzle input here:
+    https://adventofcode.com/2015/day/#{id}/input
+
+    mix test                 -- run tests.
     mix Aoc.solve_all        -- run all puzzles, starting with 1
-    mix Aoc.solve <integer>  -- run single puzzle, 1-25
+    mix Aoc.solve #{id}         -- run single puzzle, 1-25
     """
     |> IO.puts()
   end
